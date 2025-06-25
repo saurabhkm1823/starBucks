@@ -1,0 +1,487 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+}
+.logo{
+height: 80px;
+width: 80px;
+
+
+}
+.but{
+    border-radius: 40px;
+}
+.row{
+    margin-bottom: 10px;
+}
+
+#set{
+    color: rgb(4, 146, 4);
+    font-family: "montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.0rem;
+    line-height: 1.5;
+}
+.quater-circle{
+    width: 500px ;
+    height: 500px ;
+    background-color: rgb(0, 140, 0);
+    border-top-left-radius:500px;
+    margin-left: 208px;
+    z-index: 2;
+    position: relative;
+
+}
+.social{
+   position: absolute;
+   margin-left: 1150px;
+   margin-top: 50px;
+   width: 20px;
+   height: 20px;
+   z-index: 3;
+   
+}
+
+.cabpng{
+
+    width: 300px;
+    position: relative;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    
+    z-index: 3;
+   }
+
+   .coffees{
+    width: 300px;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 300px ;
+    transform: rotate(-90deg);
+z-index: 1;
+
+
+   
+}
+.coffee1:hover{
+    transform: scale(1.3) rotate(8deg);
+ 
+    
+
+}
+.coffee2:hover{
+    transform: scale(1.3) rotate(16deg) ;
+
+}
+.coffee3:hover{
+    transform: scale(1.3)  rotate(20deg);
+   
+
+}
+
+.coffee1{
+    width:110px ;
+    height:160px ;
+    transform: rotate(8deg);
+    margin-left: 8px;
+    margin-bottom: -22px;
+    transition: 0.4s ease-in-out;
+
+
+    
+
+}
+
+
+.coffee2{
+    width:70px ;
+    height:140px ;
+    margin-right: 5px;
+    margin-bottom: -40px;
+    transform: rotate(16deg);
+    transition: 0.4s ease-in-out;
+}
+.coffee3{
+    width:70px ;
+    margin-bottom: -90px;
+    height:140px ;
+    transform: rotate(20deg);
+    transition: 0.4s ease-in-out;
+}
+.d-button{
+ text-align: center;
+}
+
+h1 h2 h3 h4{
+  font-family: "montserrat", sans-serif;
+  
+}
+/* section */
+.coloured-section{
+  background-color: rgb(255, 255, 255);
+
+}
+.black-section{
+  background-color:    rgb(4, 146, 4);
+
+}
+/* heading */
+.big-heading{
+  font-family:  sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+.big-heading1{
+    font-family:  sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.0rem;
+    line-height: 1.5;
+  }
+/*navbar */ /* title */
+#title .container-fluid{
+  padding: 3% 15% 0%;
+  text-align: left;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "montserrat";
+    font-size: 2.5rem;
+    font-weight: bold ;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  
+
+}
+
+/*feature */
+
+#feature{
+  
+
+  padding: 7% 15% ;
+  color: rgb(255, 255, 255); 
+  padding: 10% 10%;
+margin-bottom: -50px;
+}
+
+.feature-title{
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
+}
+
+  em{
+    color:white ;
+  }
+
+  .feature-box{
+
+   
+    padding: 3%;
+  }
+
+  .icon{
+    margin-bottom: 1rem;
+    transition: 0.4s ease-in-out;
+    
+
+  }
+  .icon:hover{
+    color: rgb(255, 255, 78);
+    transform: scale(1.5);
+  }
+   
+   /*testimonial*/
+
+
+   #testimonial{
+           padding: 7% 15%;
+
+   }
+
+   .testimonial-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 20px;
+   }
+
+  
+.testimonial-text{
+   
+  font-optical-sizing: auto;
+  font-weight: 900;
+  color: white;
+  font-style: normal;
+}
+
+/*press*/
+
+#press{
+ 
+  color: black;
+
+  padding-bottom: 3%;
+ }
+
+.press-logo{
+ 
+  height: 150px;
+  width: 150px;
+  margin:40px 40px 50px ;
+}
+
+.press-logo:hover{
+  color: rgb(123, 123, 123);
+  transform: scale(1.2);
+}
+
+/* pricing*/
+
+#pricing{
+  padding: 7% 15% ; 
+ 
+}
+
+.p1{
+  color: rgb(0, 0, 0);
+
+}
+
+.card{
+  margin:10px 0px 30px ;
+}
+.pricing-column{
+  padding: 3% 5%;
+}
+  .pricing-text{
+    color:  rgb(0, 0, 0);
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+  .section-heading{
+ 
+    color: rgb(0, 0, 0);
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+  .pricing-heading{
+    color: black;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+   
+  /*cta*/
+#cta{
+text-align: center;
+padding: 7% 0% 1%
+
+}
+
+.heading2{
+  font-family: "montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;  
+  color:rgb(4, 146, 4); ;
+  text-align: center;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+  }
+
+
+#press2{
+
+  color: black;
+
+ 
+}
+
+
+  
+ .press-logo2{
+  height: 30px;
+  width: 30px;
+  margin:10px 10px 20px ;
+  transition: 0.4s ease-in-out;
+ }
+ .press-logo2:hover{
+    transform: scale(1.4);
+ }
+ 
+
+@media (max-width: 430px) {
+  .logo{
+    height: 50px;
+    width: 50px;
+
+  
+    
+     }
+     .big-heading{
+      font-family:  sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 2.0rem;
+      line-height: 1.5;
+    }
+    .big-heading1{
+        font-family:  sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.0rem;
+        line-height: 1.5;
+      }
+      #set{
+        color: rgb(4, 146, 4);
+        font-family: "montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 2.0rem;
+        line-height: 1.5;
+        max-width: 1vw;
+    }
+    .row{
+      margin-bottom: 10px;
+      max-width: 40vw;
+     
+  #title{
+    text-align: center;
+    
+  }
+.cabpng{
+ position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 45px;
+  width: 40%;
+z-index: 4;
+
+  
+}
+}
+.but{
+  border-radius: 40px;
+  height: 10vw;
+  width : 25vw;
+  font-size: 12px;
+}
+
+.quater-circle{
+  width: 200px ;
+  height: 200px ;
+  background-color: rgb(0, 140, 0);
+  border-top-left-radius:500px;
+  margin-left: 2px;
+  z-index: 2;
+  position: relative;
+  margin-bottom:400 ;
+
+}
+.pricing-heading{
+ color:  rgb(4, 146, 4);  
+
+}
+
+.pt{
+    color:  rgb(0, 0, 0);
+}
+.d-button{
+  margin-top: 50px;
+}
+.navbar {
+  padding-bottom: 4.5rem;
+  max-width:2 ;
+ 
+
+
+   
+}
+.coffees{
+  width: 300px;
+  position: absolute;
+  margin-left: -170px;
+  margin-top: 530px ;
+  transform: rotate(-90deg);
+z-index: 1;
+  
+
+}
+.coffee1{
+  width:60px ;
+  height:90px ;
+  transform: rotate(8deg);
+  margin-left: 8px;
+  margin-bottom: -22px;
+  transition: 0.4s ease-in-out;
+
+
+  
+
+}
+
+
+.coffee2{
+  width:35px ;
+  height:70px ;
+  margin-right: 5px;
+  margin-bottom: -40px;
+  transform: rotate(16deg);
+  transition: 0.4s ease-in-out;
+}
+.coffee3{
+  width:35px ;
+  margin-bottom: -90px;
+  height:70px ;
+  transform: rotate(20deg);
+  transition: 0.4s ease-in-out;
+}
+.social{
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 500px;
+  width: 0px;
+  height: 5px;
+  z-index: 3;
+  
+}
+.press-logo2{
+  height: 20px;
+  width: 20px;
+  margin:10px 10px 20px ;
+  transition: 0.4s ease-in-out;
+ }
+ }
